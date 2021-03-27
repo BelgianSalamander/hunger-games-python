@@ -1,0 +1,131 @@
+[
+    {
+        "names": ["dagger","sais","handaxe"],
+        "weight": 5.0,
+        "melee": 1.0,
+        "ranged": 1.0,
+        "intelligence": 0.1,
+        "kills": [
+            "{attacker} {choice(dagger)} {victim} with a {name}",
+            "{attacker} {choice(dagger)} {victim}"
+        ],
+        "misses": [
+            "{attacker} threw their {name} at {victim} but they missed",
+            "{attacker} tried to stab {victim}"
+        ]
+    },
+
+    {
+        "names": ["bomb", "explosive"],
+        "weight": 2.0,
+        "melee": 0.0,
+        "ranged": 0.0,
+        "intelligence": 3.0,
+        "kills": [
+            "{attacker} blew {victim} up",
+            "{attacker} blew {victim} up with their {name}"
+        ],
+        "misses": [
+            "{attacker} threw their {name} at victim but it didn't explode!",
+            "{attacker} tried to blow {victim} up"
+        ]
+    },
+
+    {
+        "names": ["bow","longbow","crossbow","shortbow","AK-47"],
+        "weight": 1.0,
+        "melee": 0.0,
+        "ranged": 2.0,
+        "intelligence": 1.0,
+        "kills": [
+            "{attacker} shot {victim} with their {name}",
+            "{victim} was shot in the {choice(vital_body_parts)} by {attacker}"
+        ],
+        "misses": [
+            "{attacker} shot {victim}'s arm but they did not die",
+            "{victim} was nearly hit by {attacker}'s arrow"
+        ]
+    },
+
+    {
+        "names": ["quarterstaff", "staff", "stick", "club", "baton"],
+        "weight": 4.0,
+        "melee": 1.0,
+        "ranged": 0.0,
+        "intelligence": 0.2,
+        "kills": [
+            "{attacker} hit {victim} to death",
+            "{victim} was whacked by {attacker}'s {name}"
+        ],
+        "misses": [
+            "{attacker} tried to whack {victim} with their {name}",
+            "{attacker} did not manage to hit {victim}"
+        ]
+    },
+
+    {
+        "names": ["net"],
+        "weight": 3.0,
+        "melee": 1.0,
+        "ranged": 0.5,
+        "intelligence": 1.0,
+        "kills": [
+            "{attacker} trapped {victim} using a net and killed them",
+            "{attacker} threw their net onto {victim} and killed them"
+        ],
+        "misses": [
+            "{attacker} trapped {victim} in their net but they escaped",
+            "{victim} crawled out of {attacker}'s net"
+        ]
+    },
+
+    {
+        "names": ["spear","javelin","trident"],
+        "weight": 3.0,
+        "melee": 0.5,
+        "ranged": 2.0,
+        "intelligence": 0.0,
+        "kills":[
+            "{attacker} threw their {name} at {victim}",
+            "{attacker} stabbed {victim} with their {name}"
+        ],
+        "misses":[
+            "{attacker} grazed {victim}'s {choice(body)}",
+            "{attacker} threw their {name} at {victim} but they dodged it"
+        ]
+    },
+
+    {
+        "names": ["sword","longsword","shortsword","rapier","great axe", "great sword", "mace"],
+        "weight": 3.0,
+        "melee": 2.0,
+        "ranged": 0.0,
+        "intelligence": 1.0,
+        "kills": [
+            "{attacker} {choice(sword)} {victim} with a {name}",
+            "{victim} was {choice(sword)} by {attacker}",
+            "{attacker} waited for {victim} to pass by and then {choice(sword)} them",
+            "{victim} unsuccessfully {choice(sword)} {attacker}, and gets {choice(sword)} by {pronoun} instead"
+        ],
+        "misses": [
+            "{attacker} unsuccesfully {choice(sword)} {victim}",
+            "{victim} was nearly {choice(sword)} by {attacker}"
+        ]
+    },
+
+    {
+        "names": ["poisonous berries", "arsenic", "cyanide", "amatoxin"],
+        "weight": 1.0,
+        "melee": 0.0,
+        "ranged": 0.0,
+        "intelligence": 3.0,
+        "kills": [
+            "{attacker} poisoned {victim} with {name}",
+            "{attacker} forced {name} down {victim}'s throat"
+        ],
+        "misses": [
+            "{victim} ingested {attacker}'s {name} but survived",
+            "{victim} did not eat {attacker}'s {name}"
+        ]
+    }
+]

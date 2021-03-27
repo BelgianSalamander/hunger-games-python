@@ -1,0 +1,3 @@
+cookable food:
+    Food that can be cooked
+    Attributes (strength given(once cooked), probability of being uncooked (doubled when attacked while cooking))

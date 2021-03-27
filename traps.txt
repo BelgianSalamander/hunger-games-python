@@ -1,0 +1,13 @@
+landmine:
+	landmine,bomb,explosive
+	2,0.5,0.8,1.0
+	{victim} was {choice(explode)} by {owner}'s {name}
+	{victim} accidentaly activated {owner}'s {name} but it didn't explode because {owner} had set it up wrong|{victim} set off {owner}'s {name} but escaped
+	{owner} set up a {name} trap
+
+bear trap:
+	bear trap
+	1,0.2,0.5,0.7
+	A {name} was {choice(triggered)} by {victim}, who was then promptly {choice(sword)} by {owner}
+	{victim} {choice(triggered[:2]+['fell into'])} {owner}'s {name} but managed to escape
+	{owner} placed their {name}

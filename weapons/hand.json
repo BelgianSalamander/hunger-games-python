@@ -1,0 +1,17 @@
+{
+    "name": "hands",
+    "melee": 0.5,
+    "ranged": 0.3,
+    "intelligence": 0.1,
+    "kills": [
+        "{attacker} slapped {victim} to death",
+        "{attacker} snapped {victim}'s neck",
+        "{attacker} yeeted {victim} to death",
+        "{victim} was memed by {attacker}",
+        "{attacker} brutally smashed {victim}'s head on rocks"
+    ],
+    "misses": [
+        "{attacker} swung their fist at {victim} but missed",
+        "{victim} was nearly hit by a rock thrown by {attacker}"
+    ]
+}

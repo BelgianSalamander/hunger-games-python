@@ -1,0 +1,13 @@
+[
+    {
+        "names": ["landmine","bomb","explosive"],
+        "weight": 2.0,
+        "kill chance": 0.5,
+        "min damage": 0.8,
+        "max damage": 1.0,
+        "kills": [
+            "{victim} was {choice(explode)} by {owner}'s {name}",
+            "{owner}'s {name} {choice(explode)} {victim}"
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+dagger:
+	dagger,sais,handaxe
+	5,1,1,0.1
+	{attacker} {choice(dagger)} {victim} to death with a {name}|{attacker} {choice(dagger)} {victim}
+
+landmine:
+	bomb,explosive
+	2,0,0,3
+	{attacker} blew {victim} up|{attacker} blew {victim} up with {possesive} {name}
+
+bow:
+	bow,longbow,crossbow,shortbow
+	1,0,2,1.5
+	{attacker} shot {victim}
+
+quarterstaff:
+	quarterstaff,staff,stick,club,baton
+	4,1,0,0.2
+	{attacker} hit {victim} to death
+
+net:
+	net
+	3,1,0.5,1
+	{attacker} trapped {victim} using a net and killed them
+
+spear:
+	spear,javelin,trident
+	3,0.5,2,0
+	{attacker} threw their {name} at {victim}
+
+sword:
+	sword,longsword,shortsword,rapier,great axe,great sword,mace
+	3,2,0,1
+	{attacker} {choice(sword)} {victim} with a {name}|{victim} was {choice(sword)} by {attacker}|{attacker} waited for {victim} to pass by and then {choice(sword)} {pronoun}|{victim} unsuccessfully {choice(sword)} {attacker}, and gets {choice(sword)} by {pronoun} instead
+
+poison:
+	poisonous berries,arsenic,cyanide,amatoxin
+	1,0,0,3
+	{attacker} poisoned {victim} with {name}
